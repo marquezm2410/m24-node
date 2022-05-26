@@ -4,11 +4,11 @@
   "description": "Test node",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon src/index.js",
+    "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "test": "npx jest && eslint .",
-    "lint": "npx eslint .",
-    "lint:fix":"npx eslint . --fix"
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix":"eslint . --fix"
   },
   "keywords": [
     "node",

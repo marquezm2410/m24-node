@@ -4,9 +4,6 @@ const app = express();
 
 const notas = [
 
-
-
-
   {
     id: 1,
     nota: 'Nota 1',

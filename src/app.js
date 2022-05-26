@@ -15,6 +15,10 @@ const notas = [
     id: 3,
     nota: 'Nota 3',
   },
+  {
+    id: 4,
+    nota: 'Nota 4',
+  },
 ];
 
 app.get('/notas', (req, res) => {

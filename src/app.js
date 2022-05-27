@@ -28,10 +28,13 @@ const notas = [
     id: 6,
     nota: 'Nota 6',
   },
-
   {
     id: 7,
     nota: 'Nota 7',
+  },
+  {
+    id: 8,
+    nota: 'Nota 8',
   },
 ];
 

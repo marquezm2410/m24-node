@@ -32,3 +32,13 @@ jobs:
       run: npm test
     - name: Run lint
       run: npm run lint
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "h24-node" #Must be unique in Heroku
+          heroku_email: "marquezm2410@gmail.com"

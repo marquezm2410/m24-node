@@ -37,7 +37,6 @@ const notas = [
     nota: 'Nota 8',
   },
 
-  
   {
     id: 9,
     nota: 'Nota 9',

@@ -29,9 +29,6 @@ const notas = [
     nota: 'Nota 6',
   },
 
-
-
-
   {
     id: 7,
     nota: 'Nota 7',

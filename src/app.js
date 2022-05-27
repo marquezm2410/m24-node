@@ -8,39 +8,6 @@ const notas = [
     id: 1,
     nota: 'Nota 1',
   },
-  {
-    id: 2,
-    nota: 'Nota 2',
-  },
-  {
-    id: 3,
-    nota: 'Nota 3',
-  },
-  {
-    id: 4,
-    nota: 'Nota 4',
-  },
-  {
-    id: 5,
-    nota: 'Nota 5',
-  },
-  {
-    id: 6,
-    nota: 'Nota 6',
-  },
-  {
-    id: 7,
-    nota: 'Nota 7',
-  },
-  {
-    id: 8,
-    nota: 'Nota 8',
-  },
-
-  {
-    id: 9,
-    nota: 'Nota 9',
-  },
 ];
 
 app.get('/notas', (req, res) => {
